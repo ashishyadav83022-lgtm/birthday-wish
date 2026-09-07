@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For Shruti ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Floating background hearts -->
+  <div class="hearts"></div>
+
+  <!-- OPENING -->
+  <section id="opening" class="screen active">
+    <div class="content">
+      <p class="tiny">A little something from Ashish...</p>
+
+      <h1>Hey, Malkin. ❤️</h1>
+
+      <p class="subtitle">
+        I couldn't be there beside you tomorrow,
+        so I made a little place for you here.
+      </p>
+
+      <button onclick="startJourney()">
+        Open this for me ✨
+      </button>
+    </div>
+  </section>
+
+  <!-- BIRTHDAY REVEAL -->
+  <section id="birthday" class="screen">
+    <div class="content">
+
+      <div class="cake">🎂</div>
+
+      <p class="tiny">Today is a little more special...</p>
+
+      <h1>Happy Birthday,<br><span>Shruti</span> ❤️</h1>
+
+      <p class="subtitle">
+        To the girl who somehow managed to become
+        one of the most important parts of my life
+        in just seven months.
+      </p>
+
+      <button onclick="showSection('memories')">
+        There's more... 👀
+      </button>
+    </div>
+  </section>
+
+  <!-- MEMORIES -->
+  <section id="memories" class="screen">
+    <div class="content wide">
+
+      <p class="tiny">Chapter One</p>
+      <h2>Seven months of us. 🫶</h2>
+
+      <p class="subtitle">
+        Seven months might not sound like forever,
+        but look at how many little moments can fit
+        inside those seven months.
+      </p>
+
+      <div class="memory-grid">
+
+        <div class="memory-card">
+          <div class="memory-icon">🌙</div>
+          <h3>The beginning</h3>
+          <p>
+            Somewhere along the way, talking to you
+            stopped feeling ordinary.
+          </p>
+        </div>
+
+        <div class="memory-card">
+          <div class="memory-icon">✨</div>
+          <h3>The little things</h3>
+          <p>
+            The random conversations, laughs,
+            teasing and everything in between.
+          </p>
+        </div>
+
+        <div class="memory-card">
+          <div class="memory-icon">❤️</div>
+          <h3>Us</h3>
+          <p>
+            And somehow, seven months later,
+            here we are.
+          </p>
+        </div>
+
+      </div>
+
+      <button onclick="showSection('letter')">
+        I have something to tell you 💌
+      </button>
+
+    </div>
+  </section>
+
+  <!-- LETTER -->
+  <section id="letter" class="screen">
+    <div class="content">
+
+      <p class="tiny">Chapter Two</p>
+      <h2>A letter for my Malkin 💌</h2>
+
+      <!-- CLOSED ENVELOPE -->
+      <div id="envelope" class="envelope" onclick="openLetter()">
+
+        <div class="envelope-back"></div>
+
+        <div class="envelope-paper">
+          <span>For Shruti ❤️</span>
+        </div>
+
+        <div class="envelope-flap"></div>
+
+        <div class="envelope-heart">♥</div>
+
+      </div>
+
+      <p id="envelopeHint" class="subtitle">
+        There's something inside...<br>
+        <strong>Tap the envelope 💌</strong>
+      </p>
+
+      <!-- LOVE LETTER -->
+      <div id="loveLetter" class="letter hidden-letter">
+
+        <p>Dear Malkin,</p>
+
+        <p>
+          I still remember the first time I saw you.
+        </p>
+
+        <p>
+          You seemed like an angel who had somehow landed on Earth from heaven.
+          The moment I saw your beautiful, celestial face, I fell for you harder
+          than I ever thought I could. And honestly, even now, sometimes I look
+          at you and wonder how someone like you could choose someone like me.
+        </p>
+
+        <p>
+          But then I think maybe, somehow, God blessed me that day.
+        </p>
+
+        <p>
+          I love everything about you. Your smile. Your voice. The way you get
+          happy over little things. Your mood swings. I love you when you're
+          happy, I love you when you're sad, I love you when you're angry, and
+          yes, I even love you when you're cursing me. 😭❤️
+        </p>
+
+        <p>
+          I just love <em>you</em>.
+        </p>
+
+        <p>
+          Every single time I see you, I can't help but smile. Sometimes I look
+          at you and genuinely think, "How can someone be this beautiful?"
+          You're my goddess, my Malkin, and someone I feel incredibly lucky
+          to have in my life.
+        </p>
+
+        <p>
+          There are moments when I feel like I don't deserve you. But then
+          another thought comes into my mind—that maybe nobody could love you
+          the way I do. Because what I feel for you is something I can't even
+          properly explain.
+        </p>
+
+        <p>
+          These seven months with you have honestly felt like heaven.
+        </p>
+
+        <p>
+          And if I could ask for one thing, it would be that we get to keep
+          feeling this way for a very, very long time. I want to spend my
+          future with you. I want a happy, peaceful life with you. I want more
+          ordinary days, more stupid conversations, more laughs, more arguments,
+          more memories, and more of <em>us</em>.
+        </p>
+
+        <p>
+          There's one thing I sometimes feel bad about.
+        </p>
+
+        <p>
+          Sometimes I can't get you the things you love or the things you deserve,
+          and that hurts me because I wish I could give you everything. I'm not
+          there yet. I'm still figuring things out, and sometimes money is tight.
+          But please never mistake what I can't buy for what I can't give.
+        </p>
+
+        <p>
+          Because my love for you isn't measured by what I can afford.
+        </p>
+
+        <p>
+          If I were there with you tomorrow, I wouldn't need this letter to
+          explain everything. I'd rather look at you and show you, in every
+          possible way, just how much you mean to me.
+        </p>
+
+        <p>
+          But since I can't be there right now, I made this little corner
+          of the world for you.
+        </p>
+
+        <p>
+          And I hope when you read this, you smile.
+        </p>
+
+        <p>
+          Happy Birthday, Shruti.
+        </p>
+
+        <p>
+          Thank you for these seven beautiful months.
+        </p>
+
+        <p>
+          Thank you for choosing me.
+        </p>
+
+        <p>
+          And thank you for being you.
+        </p>
+
+        <p>
+          I don't know exactly what the future will look like, but I know
+          what I want it to look like.
+        </p>
+
+        <p>
+          <strong>You and me. Together.</strong>
+        </p>
+
+        <p>
+          <strong>I LOVE YOU MORE THAN ANYTHING, MY GIRL. ❤️</strong>
+        </p>
+
+        <p class="signature">
+          Forever the one who's hopelessly in love with you. ❤️
+        </p>
+
+      </div>
+
+      <!-- NEXT BUTTON -->
+      <button
+        id="letterNext"
+        class="letter-next hidden-letter"
+        onclick="showSection('gift')"
+      >
+        I have one more surprise for you 🎁
+      </button>
+
+    </div>
+  </section>
+
+  <!-- GIFT -->
+  <section id="gift" class="screen">
+    <div class="content">
+
+      <p class="tiny">Chapter Three</p>
+
+      <h2>There's a little gift here...</h2>
+
+      <div class="gift" onclick="openGift()">
+        <div class="gift-lid"></div>
+        <div class="gift-box"></div>
+        <div class="gift-ribbon"></div>
+      </div>
+
+      <p id="giftHint" class="subtitle">
+        Tap the gift 🎁
+      </p>
+
+      <div id="giftMessage" class="hidden">
+        <h2>Surprise, Malkin. ❤️</h2>
+
+        <p class="subtitle">
+          No matter how far away I am tomorrow,
+          I hope this little corner of the internet
+          reminds you that someone is thinking about you.
+        </p>
+
+        <button onclick="showSection('final')">
+          Keep going 🌙
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FINAL -->
+  <section id="final" class="screen">
+    <div class="content">
+
+      <div class="moon">🌙</div>
+
+      <p class="tiny">And finally...</p>
+
+      <h1>
+        Happy Birthday,<br>
+        <span>my Malkin. ❤️</span>
+      </h1>
+
+      <p class="subtitle final-text">
+        I may not be there to celebrate with you
+        the way I wish I could...
+
+        <br><br>
+
+        ...but I'm still here.
+        And I'm incredibly lucky that
+        these past seven months have been ours.
+
+        <br><br>
+
+        Here's to everything we've already lived,
+        everything we're going to experience,
+        and all the memories we haven't made yet.
+
+        <br><br>
+
+        <strong>Happy Birthday, Shruti.</strong>
+
+        <br><br>
+
+        — Ashish ❤️
+      </p>
+
+      <div class="stars">✦ · ˚ ✧ · ˚ ✦</div>
+
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
